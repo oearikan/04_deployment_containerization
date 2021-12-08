@@ -3,7 +3,7 @@ data:
   mapRoles: |
     - groups:
       - system:masters
-      rolearn: arn:aws:iam::<ACCOUNT_ID>:role/UdacityFlaskDeployCBKubectlRole
+      rolearn: arn:aws:iam::001041420488:role/UdacityFlaskDeployCBKubectlRole
       username: build
     - groups:
       - system:bootstrappers
@@ -15,5 +15,5 @@ metadata:
   creationTimestamp: "2021-12-07T13:45:47Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1338"
+  resourceVersion: "85708"
   uid: 96b00fdc-0202-4905-90aa-127098d1afa6
